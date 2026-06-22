@@ -522,7 +522,11 @@ elif page == "tables":
 # ── FOOTER ────────────────────────────────────────────────────────────────────
 st.markdown("---")
 st.markdown(
-    "<div style='text-align:center;color:#95D5B2;font-size:12px'>"
-    "🥗 Local Food Wastage Management System • Built with Python · SQL · Streamlit · Plotly"
-    "</div>", unsafe_allow_html=True
+    "<div style='text-align:center;margin-top:8px;padding:12px;"
+    "background:#1B4332;border-radius:8px;'>"
+    "<span style='color:#D8F3DC;font-size:14px;font-weight:600;'>"
+    "👩‍💻 Created by Priyadharsini S"
+    "</span>"
+    "</div>",
+    unsafe_allow_html=True
 )
